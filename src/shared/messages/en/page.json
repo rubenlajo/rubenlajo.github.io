@@ -1,0 +1,5 @@
+{
+  "shared.filters": "Filters",
+  "historic.title": "Historic to",
+  "historic.tooltip-content": "Every day at {historicalBatchProcessTime} hours (UTC) the data from {projectName} Operational is copied to {projectName} Historical. The copied data is up to date {lastHistorificationDate} (UTC). Only the data for the following period are visible in the {projectName} Operational: 1 year from today"
+}

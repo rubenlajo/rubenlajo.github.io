@@ -1,0 +1,15 @@
+{
+  "shared.editOtForm.createWO": "Create WO",
+  "shared.editOtForm.completeAndFinalizeWO": "Complete and finalize WO",
+  "shared.editOtForm.WOType": "WO Type",
+  "shared.editOtForm.WOSubType": "WO Subtype",
+  "shared.editOtForm.physical-element": "Pysical element / Route",
+  "shared.editOtForm.severity-types": "Severity",
+  "shared.editOtForm.work-order-activity": "Work plan/Activity",
+  "shared.editOtForm.work-order-description": "Description",
+  "shared.editOtForm.work-order-description.helper-message": "Max 150 characters",
+  "shared.editOtForm.date-start-estimated": "Expected start date",
+  "shared.editOtForm.work-shift": "Work shift",
+  "shared.editOtForm.technicians": "Technicians",
+  "shared.editOtForm.serviceProvider": "Service provider"
+}

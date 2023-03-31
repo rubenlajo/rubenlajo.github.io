@@ -1,0 +1,72 @@
+.slider-container {
+  height: calc(100vh - 160px);
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-container .slider-list {
+  list-style: none;
+  overflow: hidden;
+  display: block;
+  display: flex;
+}
+
+.slider-container.not-dragging .slider-list {
+  transition: left 0.25s ease-in-out;
+}
+
+.slider-container .slider-list .slide {
+  display: inline-block;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.slider-container .pagination-dots {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider-container .pagination-dots .dot {
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-neutral400, #4d4d4d);
+  display: block;
+  margin: 7px;
+  border-radius: 50%;
+}
+
+.slider-container .pagination-dots .dot.active {
+  background-color: #fff;
+}
+
+.slider-container .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4rem;
+  width: 4rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-container .arrow.disabled {
+  display: none;
+}
+
+.slider-container .arrow.right {
+  right: 0;
+}
+
+.slider-container .arrow.left {
+  left: 0;
+}

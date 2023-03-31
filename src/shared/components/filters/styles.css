@@ -1,0 +1,46 @@
+.filter {
+    padding: 20px 0;
+    height: calc(100% - 40px);
+}
+
+.filter .filters-form {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.filter .filters-form .filter-fields {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.filter .filters-form .filter-fields>div {
+    margin-bottom: 5rem;
+}
+
+.filter .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.filter .button-container button {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.filter .button-container button .btn__text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter .button-container button:last-child {
+    margin-bottom: 0;
+}

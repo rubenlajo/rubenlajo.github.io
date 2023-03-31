@@ -1,0 +1,74 @@
+.list-ul {
+    list-style: none;
+}
+
+.list-ul .list-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: var(--space-s);
+    padding-top: var(--space-s);
+    padding-left: var(--space-xs);
+    justify-content: flex-start;
+    overflow: hidden;
+    background: var(--color-white);
+    border-bottom: 1px solid whitesmoke;
+}
+
+.list-ul .list-ul .list-item {
+    padding-left: var(--space-xl);
+}
+
+.list-ul>.list-item.selected {
+    background: var(--list-selected);
+}
+
+.list-ul>.list-item:hover {
+    background: var(--list-hover);
+}
+
+.list-ul .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    border-top: 1px solid var(--grey-medium);
+    border-bottom: 1px solid var(--grey-medium);
+    background: #f5f5f5;
+}
+
+.list-ul .header span {
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--grey-darker);
+    text-transform: uppercase;
+    padding: 0 var(--space-s);
+    border-right: 1px solid var(--grey-medium);
+}
+
+.list-ul .header span:last-child {
+    border-right: none;
+}
+
+.list-ul .show-previous {
+    font-size: 13px;
+    color: var(--primary-medium);
+    font-weight: bold;
+    border-bottom: none;
+}
+
+.list-ul .load-more {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.list-ul .draggable-element {
+    cursor: move;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.list-ul .draggable-element .sortable-content {
+    flex: 1;
+}

@@ -1,0 +1,73 @@
+.items-list .item-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background: #363636;
+  border: 0.2rem solid #404040;
+  margin: 3.2rem 0rem;
+  padding: 1.6rem;
+}
+
+.items-list .item-line .item-property {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0rem 1.6rem;
+  /* margin-left: 3.2rem; */
+  flex: 1;
+}
+
+.items-list .item-line .item-property.flex-grow {
+  flex: 3;
+}
+
+.items-list .item-line .item-property span {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e6e6e6;
+}
+
+.items-list .item-line .item-property .label span {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: #b5b5b5;
+}
+
+.items-list .item-line .item-property.is-text-ellipsis {
+  display: grid;
+}
+
+.items-list .item-line .item-property .text-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.items-list .item-line .item-property .text-ellipsis>span {
+  white-space: nowrap;
+}
+
+.items-list .clickable {
+  cursor: pointer;
+}
+
+@media (max-width:1200px) {
+  .items-list .item-line {
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .items-list .item-line .item-property {
+    padding: 0rem 1rem;
+    margin-left: 0;
+    flex: 1;
+  }
+}

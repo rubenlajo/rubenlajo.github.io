@@ -1,0 +1,12 @@
+.finalize-pannel .title-text {
+    color: var(--color-interface300, #73C480)
+}
+
+.finalize-pannel .mb-16 {
+    text-align: justify;
+}
+
+.finalize-pannel .button {
+    width: 100%;
+    text-align: center;
+}

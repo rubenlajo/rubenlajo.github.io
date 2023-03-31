@@ -1,0 +1,21 @@
+.square {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.2px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 16px;
+  color: var(--color-neutral50, #e6e6e6);
+}
+
+.square.size-m {
+  padding: 0.2rem 1rem;
+  min-width: 24px;
+  min-height: 24px;
+}
+
+.square.size-s {
+  min-width: 16px;
+  min-height: 16px;
+}

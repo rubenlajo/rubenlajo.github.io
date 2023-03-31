@@ -1,0 +1,70 @@
+.app-layout {
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.app-layout-content__main {
+  background-color: #262626;
+  color: #e6e6e6;
+  overflow-y: auto;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding-left: 9.6rem;
+}
+
+.app-layout-content-main {
+  height: 100%;
+}
+
+.toast__container .notifications-toast {
+  position: inherit;
+  margin-bottom: 1.5rem;
+}
+
+.notifications-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(26, 26, 26, 0.4);
+  z-index: 1;
+}
+
+.notifications-overlay.hidden {
+  display: none !important;
+}
+
+.loader.hidden {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .app-layout-content__main {
+    /* padding: 2.4rem; */
+    padding: 0;
+  }
+
+  .app-layout-content-main {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .toast .toast__body {
+    padding: 12px 16px 12px 16px !important;
+  }
+  .toast__body {
+    max-width: inherit !important;
+  }
+  .toast__body-content {
+    max-width: inherit !important;
+  }
+  .toast__button--close {
+    min-width: 64px !important;
+    min-height: 64px !important;
+  }
+}

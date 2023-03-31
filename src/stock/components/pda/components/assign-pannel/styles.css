@@ -1,0 +1,18 @@
+.assign-pannel .mobile-slide-panel_content {
+    padding: 0 0 2.4rem 0;
+}
+
+.assign-pannel .technician-assign-btn {
+    width: calc(100% - 4.8rem);
+    margin-left: 2.4rem;
+    margin-top: 5.2rem;
+}
+
+.assign-pannel .mobile-slide-panel_content .btn-primary {
+    max-width: 89%;
+}
+
+.assign-pannel .no-technicians-found-msg {
+    padding: 2.4rem;
+    text-align: justify;
+}

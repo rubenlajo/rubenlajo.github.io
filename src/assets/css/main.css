@@ -1,0 +1,117 @@
+@import "./variables.css";
+@import "./layout-overrides.css";
+
+body {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-neutral50, #e6e6e6);
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5 {
+  margin-top: 0;
+  color: var(--color-neutral100, #b5b5b5);
+}
+
+.h100 {
+  height: 100%;
+}
+
+.v100,
+.w100 {
+  width: 100%;
+}
+
+/* Flexbox */
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+/* Vertical align */
+.valign-center {
+  align-items: center;
+}
+
+.valign-top {
+  align-items: flex-start;
+}
+
+.valign-bottom {
+  align-items: flex-end;
+}
+
+/* Horizontal align */
+.halign-left {
+  justify-content: flex-start;
+}
+
+.halign-center {
+  justify-content: center;
+}
+
+.halign-right {
+  justify-content: flex-end;
+}
+
+/* Text align */
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.error-msg {
+  color: var(--color-error500, #e43e42);
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.page-detail {
+  height: 100%;
+}
+
+.action-sheet__body {
+  padding: 0 2.4rem;
+}
+
+.action-sheet__body .button {
+  margin-bottom: 1.2rem;
+}
+
+.action-sheet__body .button:last-child {
+  margin-bottom: 0;
+}
+
+.thumbnail-size {
+  width: 80px;
+  height: 80px;
+}
+
+.link {
+  cursor: pointer;
+  color: var(--color-accent200, #fcdd82);
+}
+
+.primary {
+  color: var(--color-accent200, #fcdd82);
+}
+
+.clickable {
+  cursor: pointer;
+}

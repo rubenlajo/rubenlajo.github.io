@@ -1,0 +1,19 @@
+.format-hours {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--color-neutral200, #858585);
+  margin: 0;
+}
+
+.format-date {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-neutral50, #e6e6e6);
+  margin: 0;
+}

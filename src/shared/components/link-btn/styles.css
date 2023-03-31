@@ -1,0 +1,16 @@
+.link-btn {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--color-neutral50, #e6e6e6);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.link-btn .icon {
+  margin: 0.9rem;
+}

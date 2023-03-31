@@ -1,0 +1,41 @@
+.custom-scroll {
+    min-height: 400px;
+}
+
+.custom-scroll .scroll-content {
+    height: 100%;
+}
+
+.custom-scroll>div:first-child {
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+.custom-scroll>div:last-child {
+    right: 3px !important;
+    z-index: 0;
+    background-color: #363636;
+}
+
+.custom-scroll>div:last-child>div {
+    border-radius: 4px !important;
+    background-color: #616161 !important;
+    width: 8px !important;
+}
+
+.custom-scroll.scroll-visible>div>.scroll-content {
+    padding-right: 10px !important;
+}
+
+.custom-scroll.scroll-visible>div:last-child {
+    right: 0px !important;
+    width: 10px !important;
+}
+
+/*
+    En el scroll global del layout se muestra la barra superpuesta
+    ya que no habrá contenido tan pegado al borde
+*/
+.app-layout-content-main>.custom-scroll.scroll-visible>div>.scroll-content {
+    padding-right: 0 !important;
+}

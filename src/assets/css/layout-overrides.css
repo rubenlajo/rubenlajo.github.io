@@ -1,0 +1,524 @@
+/**
+ *  Datatable
+ */
+#app .datatable__cell--free {
+  background-color: inherit;
+}
+
+
+#app .table-header {
+  z-index: 2;
+}
+
+#app .datatable .card-checkbox__square {
+  z-index: 1;
+}
+
+/**
+  Fix buttons z-index
+  */
+/* .btn-primary {
+  z-index: 0;
+} */
+/* 
+.form-radio.form-radio--checked .form-radio__input:focus+.form-radio__label:after,
+.form-radio.form-radio--has-focus.form-radio--checked .form-radio__label:after,
+.form-radio:hover.form-radio--checked .form-radio__label:after {
+  background: #fcdd82;
+} */
+
+/**
+Fix IconButton hover
+*/
+/* #app .button .button .btn-link:hover .icon__image {
+  color: #fcdd82 !important;
+} */
+
+/**
+Fix form-field margin-bottom
+*/
+/* #app .button .button .form-field {
+  margin-bottom: 0rem !important;
+} */
+
+/**
+Fix dates filter in DataTable
+*/
+#app .button .button .input-date-interval .popover-container__content {
+  padding: 0rem;
+}
+
+
+/** 
+Fix button alignment
+*/
+#app .button .button .btn-primary:not(.btn--fab) .btn__text,
+#app .button .button .btn-secondary:not(.btn--fab) .btn__text {
+  justify-content: center;
+}
+
+/**
+Fix buttons margin in .btn-container
+*/
+/* .btn-container--right button {
+  margin-left: var(--spacer-s);
+} */
+
+/**
+ *  Fix buttons line-height in mobile
+ */
+@media (max-width: 760px) {
+
+  #app .btn-primary,
+  #app .btn-primary * {
+    line-height: 4.8rem;
+  }
+
+  #app .btn-primary,
+  #app .btn-secondary {
+    padding: 0 5px;
+  }
+
+  #app .modal-sheet__hidden .action-sheet {
+    bottom: -100%;
+  }
+
+  #app .action-sheet .btn-primary,
+  #app .action-sheet .btn-secondary {
+    padding: 0;
+  }
+
+  #app .action-sheet .btn-primary .btn_primary__icon,
+  #app .action-sheet .btn-primary .btn_primary__icon .icon__image {
+    width: auto;
+  }
+
+  #app .btn-primary.btn--fab,
+  #app .btn-primary.btn--fab * {
+    /* line-height: 2rem !important; */
+    padding: 0;
+  }
+
+  #app .btn-link.button-icon.action-sheet-button {
+    /* line-height: 2rem !important; */
+    padding: 0;
+    width: 4rem;
+    height: 4rem;
+    background-color: #fcdd82;
+    color: #1a1a1a;
+    border-radius: 50%;
+    bottom: 2rem;
+    position: fixed;
+    right: 2.4rem;
+    text-align: center;
+    z-index: 1;
+  }
+}
+
+/**
+  *   Fix toggle active border
+  */
+.input_toggle .input_toggle--option-active {
+  border: 1px solid var(--color-neutral800, #2e2e2e);
+}
+
+.form .btn-container {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+/**
+  *   Fix button-container alignement
+  */
+.btn-container {
+  width: 100%;
+}
+
+.btn-container.sticky {
+  width: auto;
+  position: fixed;
+}
+
+.button-group {
+  width: 100%;
+  gap: 1.6rem;
+}
+
+.button-group.align-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/**
+  *   Inner menu fix
+  */
+.inner-menu {
+  display: flex;
+}
+
+.inner-menu .inner-menu__content {
+  flex: 1;
+  display: flex;
+  width: 100%;
+}
+
+.inner-menu .inner-menu__content>* {
+  width: 100%;
+}
+
+.inner-menu .inner-menu__items {
+  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+}
+
+/**
+  * Fix textfield background color
+  */
+.detail-form .form-field__input-wrapper {
+  width: unset;
+  background: #363636;
+  border-bottom: 2px solid var(--color-neutral200, #858585);
+}
+
+/**
+    * Fix toolbar button link uppercase and margins
+    */
+.detail-form .toolbar .btn-link {
+  padding: 12px;
+  text-transform: capitalize;
+}
+
+.detail-form .toolbar .right .icon {
+  margin-right: 12px;
+}
+
+.detail-form .toolbar .right .btn-link {
+  margin-left: 28px;
+}
+
+/**
+  * Inner menu font styles
+  */
+.new-reference .single-item__content--label {
+  font-family: Inter, sans-serif;
+}
+
+/**
+  * Inner menu hide icons
+  */
+.new-reference .single-item__item-icon {
+  display: none;
+}
+
+/**
+  * Add form-field disabled styles
+  */
+.detail .form-field--disabled .form-field__input-wrapper {
+  opacity: 0.5;
+}
+
+/**
+  * Set form-field background color as Figma
+  */
+.detail .form-field__input-wrapper {
+  width: unset;
+  background: #363636;
+  border-bottom: 2px solid var(--color-neutral200, #858585);
+}
+
+/**
+  *
+  */
+.detail .toolbar .btn-link {
+  padding: 12px;
+  text-transform: capitalize;
+}
+
+.detail .toolbar .right .icon {
+  margin-right: 12px;
+}
+
+.detail .toolbar .right .btn-link {
+  margin-left: 28px;
+}
+
+/**
+    * Fix field widths
+    */
+.detail .row.long-field .form-field {
+  width: 100%;
+}
+
+.detail .btn-container {
+  width: 100%;
+}
+
+.form-field--has-placeholder .form-field__label.form-field__label--floating,
+:not(.form-field--small).form-field--has-content .form-field__label.form-field__label--floating,
+:not(.form-field--small).form-field--has-focus .form-field__label.form-field__label--floating {
+  top: 1.4rem !important;
+}
+
+body #app .form-field--has-focus .form-field__label--floating {
+  top: 1.4rem !important;
+}
+
+.form-field--full-height.form-field--textarea,
+.form-field--full-height.form-field--textarea .form-field__input-wrapper {
+  height: auto !important;
+}
+
+body .form-field--full-height .form-field__input--textarea {
+  margin-top: 0;
+  /* resize: vertical; */
+  min-height: 12rem;
+}
+
+/**
+    * Fix readonly elements focus
+    */
+.detail .form-field--has-focus.form-field--readonly .form-field__input-wrapper {
+  box-shadow: unset;
+  border: 0px;
+  border-bottom: 0.2rem solid var(--color-neutral200, #858585);
+}
+
+.detail .form-field--has-focus.form-field--readonly .form-field__label--floating {
+  color: var(--color-neutral100, #b5b5b5);
+}
+
+/**
+  * Fix no label height inputs
+  */
+
+.form-field.form-field--no-label input {
+  margin-top: 0;
+  line-height: 5.6rem !important;
+}
+
+/**
+  * Lib-frontsga fix z-index menu
+  */
+
+.app-layout .menu-secondary,
+.app-layout .menu-primary {
+  z-index: 2;
+}
+
+/**
+  * Fix title margin left
+  */
+#app .button .button,
+#app .title {
+  /* margin-left: 0; */
+  margin-top: 0;
+}
+
+#app .title .title__button.button--action {
+  margin-right: 4rem;
+}
+
+/*
+  Fix white square at the right bottom when the page has both scroll bars
+  */
+::-webkit-scrollbar-corner {
+  background-color: #363636;
+}
+
+#app .modal {
+  height: auto;
+}
+
+
+/**
+  * fix predictive pannel z-index
+  */
+.predictive-panel {
+  z-index: 1;
+}
+
+/*
+ * Fix select search
+ */
+#app .button .button #app .input-select__input-search.form-field {
+  margin-bottom: 0 !important;
+}
+
+#app .button .button #app .input-select__input-search-button {
+  color: #e6e6e6;
+}
+
+#app .button .button #app .input-select__panel {
+  position: absolute;
+  width: 100%;
+}
+
+/**
+ *  Fix icon search in input search
+ */
+#app .button .button .input-search.form-field {
+  z-index: 1;
+  margin-bottom: 0.4rem !important;
+}
+
+/**
+ *  Texarea
+ */
+.form-field--full-height .form-field__input--textarea {
+  margin-top: 0;
+}
+
+/**
+ *  list-item-metadata  
+ *  Remove unecesary padding
+ */
+
+.page-mobile .list-item-metadata {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/**
+ *  action-sheet
+ */
+.action-sheet {
+  bottom: -100%;
+}
+
+.action-sheet.action-sheet__visible {
+  bottom: 0;
+}
+
+.action-sheet .btn-secondary .icon {
+  position: absolute;
+  right: 2rem;
+}
+
+.action-sheet button,
+.action-sheet .btn-link {
+  text-align: center;
+}
+
+/**
+ *  Buton fab
+ */
+
+#app .button .button .btn-primary.btn--fab {
+  position: fixed;
+  z-index: 0;
+}
+
+.sga-popover .sga-tooltip.historical-tooltip {
+  background-color: #404040;
+  max-width: 45rem;
+  border-radius: 5px;
+  transform: translateY(-10px);
+}
+
+.sga-popover .sga-tooltip.historical-tooltip .sga-tooltip__arrow {
+  left: 20%;
+  background-color: #404040;
+}
+
+.sga-popover .sga-tooltip.historical-tooltip.sga-tooltip--bottom {
+  bottom: -5px;
+}
+
+/**
+ *  Fix mobile icons
+ */
+@media (max-width: 768px) {
+  #app .toast {
+    width: calc(100% - 2rem);
+  }
+
+  #app .toast .toast__close .icon__image::before {
+    font-size: 2.4rem;
+  }
+}
+
+/*
+ *  Fix salient dual with
+ */
+.salient-dual__label-wrapper,
+.salient-dual__labels-wrapper {
+  flex: 1;
+}
+
+#app .button.block {
+  width: 100%;
+}
+
+#app .button .button .list-item-metadata {
+  background-color: #262626 !important;
+}
+
+/**
+Fix loader color
+*/
+.loader {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.loader__message {
+  color: var(--color-neutral50);
+}
+
+/**
+Fix table cell alignment
+*/
+td.table-cell.large-content {
+  text-align: left;
+}
+
+/**
+*   Fix error dot in input number
+*/
+
+.qty-input-container .has-errors.form-field--disabled .form-field__input-wrapper:after {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #app .button .button .modal-sheet {
+    left: 0;
+  }
+
+  #app .button .button .modal-sheet__visible {
+    z-index: 21;
+  }
+}
+
+.btn-container.btn-container--block {
+  width: 100%;
+}
+
+.avatar {
+  background-color: transparent;
+}
+
+.avatar.size-l {
+  width: 56px;
+}
+
+
+/**
+ * Fix mobile buttons
+ */
+@media (max-width: 768px) {
+  body .button {
+    text-align: center;
+    height: 4.8rem;
+    padding: .5rem;
+  }
+
+  body .button .button__label {
+    width: 100%;
+    display: block;
+    font-size: 1.3rem;
+    line-height: 20px;
+    min-height: 2rem;
+    height: 2rem;
+  }
+}

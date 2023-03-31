@@ -1,0 +1,35 @@
+.sort-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: top;
+  margin-right: 10px;
+  padding-top: 15px;
+}
+
+.sort-buttons>div {
+  margin-right: 10px;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.sort-buttons>div>.btn-link {
+  line-height: unset;
+}
+
+.sort-buttons .btn-link {
+  padding: 0px 10px;
+  min-width: 22px;
+  min-height: 22px;
+  height: 22px;
+}
+
+.sort-buttons>div>span {
+  color: #FDEBB3;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 1px 4px;
+}

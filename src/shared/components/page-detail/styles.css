@@ -1,0 +1,22 @@
+.page-detail.history-instance .header-container {
+  height: 12rem;
+  background-color: var(--color-history-instance);
+  display: flex;
+  align-items: center;
+}
+
+.page-detail .title {
+  margin-bottom: 2.4rem;
+}
+
+.page-detail.history-instance .header-container .sga-tooltip {
+  min-width: fit-content;
+}
+
+.page-detail.history-instance .header-container .breadcrumb {
+  margin-bottom: 0;
+}
+
+.page-detail.history-instance .title__title-container .title__subtitle {
+  color: var(--color-neutral50, #e6e6e6);
+}

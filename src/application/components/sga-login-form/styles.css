@@ -1,0 +1,22 @@
+/* .login-form {} */
+
+.login-form .login-title {
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #E6E6E6;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.login-form .login-title .icon {
+    margin-right: 4px;
+}
+
+.login-form .form-buttons-container {
+    height: auto;
+}

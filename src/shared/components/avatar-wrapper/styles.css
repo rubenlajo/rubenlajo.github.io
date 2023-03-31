@@ -1,0 +1,13 @@
+.avatar-wrapper {
+  position: relative !important;
+  z-index: 0;
+}
+
+.avatar-wrapper .avatar {
+  z-index: 0 !important;
+  background: transparent;
+}
+
+.avatar-wrapper .sga-avatar .sga-avatar__portrait .sga-avatar__abbr {
+  text-transform: uppercase;
+}
