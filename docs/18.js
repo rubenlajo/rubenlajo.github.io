@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[18],{1348:function(e,a,t){"use strict";t.r(a);var c=t(0),o=t.n(c),n=t(7),r=t.n(n),s=t(218),p=t(387),b=t(180),d={match:r.a.object,user:r.a.object},i=function(e){var a;return a=e.device.mobile?"/stock/pda/dashboard":"/stock",o.a.createElement(s.a,{to:a})};i.propTypes=d,a.default=Object(p.a)(Object(b.a)(i))}}]);

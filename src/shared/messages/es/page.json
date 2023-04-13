@@ -1,5 +1,0 @@
-{
-  "shared.filters": "Filtros",
-  "historic.title": "Histórico a",
-  "historic.tooltip-content": "Todos los días a las {historicalBatchProcessTime} horas (UTC) se copian los datos de {projectName} Operativo a {projectName} Histórico. Los datos copiados son hasta la fecha {lastHistorificationDate} (UTC). En el {projectName} Operativo solamente quedan visibles los datos del siguiente periodo: 1 año desde hoy"
-}

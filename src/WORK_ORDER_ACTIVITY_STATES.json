@@ -1,6 +1,0 @@
-{
- "PENDING": 1,
- "IN_PROCESS": 2,
- "BLOCKED": 3,
- "FINISHED": 4
-}
